@@ -1,6 +1,6 @@
 /* Pradeep Sales POS — offline app shell.
    Change CACHE (v1 -> v2 ...) whenever you upload changed files so tablets pick them up. */
-const CACHE = 'ps-pos-v5';
+const CACHE = 'ps-pos-v6';
 const ASSETS = ['./', 'index.html', 'style.css', 'app.js', 'firebase-sync.js', 'manifest.json', 'icon-192.png', 'icon-512.png', 'icon-maskable.png', 'logo.png', 'logo-print.png'];
 
 self.addEventListener('install', e => {
